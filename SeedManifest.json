@@ -1,0 +1,53 @@
+{
+  "models": [
+    {
+      "attrs": [
+        {
+          "card": {
+            "has": "0..*",
+            "ref": "1"
+          },
+          "is_fk": true,
+          "name": "user",
+          "type": "user"
+        },
+        {
+          "length": "255",
+          "name": "business",
+          "type": "string"
+        },
+        {
+          "length": "255",
+          "name": "comment",
+          "type": "string"
+        },
+        {
+          "length": "255",
+          "name": "lastname",
+          "type": "string"
+        },
+        {
+          "length": "255",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "length": "255",
+          "name": "position",
+          "type": "string"
+        },
+        {
+          "length": "255",
+          "name": "email",
+          "type": "string"
+        }
+      ],
+      "name": "contact"
+    },
+    {
+      "attrs": [],
+      "description": "Represents a registered user",
+      "name": "user"
+    }
+  ]
+}

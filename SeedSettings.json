@@ -1,0 +1,24 @@
+{
+  "api": {
+    "include": {
+      "*": "*"
+    }
+  },
+  "extend": {
+    "models": [],
+    "routes": [
+      "contact"
+    ],
+    "schema_types": [],
+    "serializers": []
+  },
+  "graphql": {
+    "include": {
+      "*": "*"
+    }
+  },
+  "last_build_version": "0.5.5",
+  "platform": "django",
+  "project_description": "In this repository, we create a Landing Page using Django as Backend",
+  "project_name": "Landing Page Backend"
+}
